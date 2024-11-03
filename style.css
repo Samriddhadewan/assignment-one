@@ -54,7 +54,7 @@ header{
 .banner-p{
     margin-top: 24px;
     margin-bottom: 24px;
-    text-align: #0D1321B3;
+    text-align:  #808080;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -65,4 +65,37 @@ header{
     padding: 18px 23px;
     font-family: "Azeret Mono", monospace;
     border-radius: 10px;
+}
+/* main section styles here  */
+.why-web{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin-top: 74px;
+    padding-top: 80px;
+}
+.why-text{
+    text-align: center;
+}
+.text-primary{
+    font-size: 32px;
+    font-weight: 800;
+}
+.box{
+    border: 1px solid red;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+.layer-1{
+width: 50%;
+}
+.layer-{
+ width: 50%;
 }
