@@ -147,6 +147,30 @@ main{
     height: 550px;
     border-radius: 15px;
 }
+/* my current target styles here  */
+.my-current-target{
+    margin-top: 112px;
+}
+.current-boxs{
+    margin-top: 48px;
+    display: flex;
+    gap: 20px;
+}
+.current-box{
+    width: 364px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.bg-sky{
+    background: rgba(0, 76, 232, 0.05);
+}
+.bg-vanilla{
+    background: rgba(255, 223, 0, 0.05);
+}
+.margin-top-12{
+    margin-top: 15px;
+}
 /* my next target styles here  */
 .my-next-target{
     margin-top: 111px;
