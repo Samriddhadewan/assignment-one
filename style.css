@@ -147,3 +147,45 @@ main{
     height: 550px;
     border-radius: 15px;
 }
+/* my next target styles here  */
+.my-next-target{
+    margin-top: 111px;
+}
+.text-center{
+    text-align: center;
+}
+.skill-box{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    display: flex;
+    gap: 24px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.skill-primary{
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 800;
+}
+.fluid-img{
+    width: 95px;
+    height: 107px;
+    object-fit: contain;
+    
+}
+.skill-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    
+}
+.learn-more{
+    text-decoration: underline;
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 700;
+
+}
