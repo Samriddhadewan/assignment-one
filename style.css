@@ -214,6 +214,7 @@ main{
 }
 /* i need help section starts here  */
 .i-need-help{
+    display: flex;
     text-align: center;
     margin-top: 40px;
     height: 30vh;
@@ -224,5 +225,36 @@ main{
     border-radius: 16px;
 }
 .need-text{
-    border: 1px solid red;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.support-primary{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.support-p{
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.search{
+    border: none;
+    border-radius: 8px;
+    width: 548px ;
+    height: 40px;
+    font-family: "Azeret Mono";
+    padding-left: 10px;
+}
+.submit{
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+    font-family: "Azeret Mono";
+
 }
