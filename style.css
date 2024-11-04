@@ -211,5 +211,18 @@ main{
     font-size: 16px;
     color: #0D1321;
     font-weight: 700;
-
+}
+/* i need help section starts here  */
+.i-need-help{
+    text-align: center;
+    margin-top: 40px;
+    height: 30vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(<path-to-image>) lightgray 50% / cover no-repeat;
+    background-image: url("./assets/handshake.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+.need-text{
+    border: 1px solid red;
 }
